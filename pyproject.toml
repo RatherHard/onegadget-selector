@@ -1,5 +1,4 @@
 [build-system]
-# 指定构建工具。目前推荐使用 setuptools
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
