@@ -30,4 +30,4 @@ dependencies = [
 "Bug Tracker" = "https://github.com/RatherHard/onegadget-selector/issues"
 
 [tool.setuptools]
-packages = ["onegadget-selector"]
+packages = ["onegadget_selector"]
