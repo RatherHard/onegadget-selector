@@ -1,0 +1,34 @@
+[build-system]
+# 指定构建工具。目前推荐使用 setuptools
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onegadget-selector"
+version = "0.1.0"
+description = "A terminal UI tool for selecting OneGadgets with syntax highlighting."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+    { name = "RatherHard", email = "usury43@qq.com" }
+]
+keywords = ["pwn", "onegadget", "ctf", "tui", "questionary"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+dependencies = [
+    "questionary>=2.0.0",
+    "prompt-toolkit>=3.0.0",
+    "pwntools>=3.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RatherHard/onegadget-selector"
+"Bug Tracker" = "https://github.com/RatherHard/onegadget-selector/issues"
+
+[tool.setuptools]
+packages = ["onegadget-selector"]
